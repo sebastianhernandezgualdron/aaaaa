@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    width: 70px;
+
+}
+
+.menu{
+    list-style: none;
+    background: white;
+    width: 100%;
+    justify-content: center;
+   position: fixed;
+    top: 0;
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-evenly;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    display: block;
+
+    font-size: 30px;
+}
+
+.menu li{
+
+    margin-top: 2%;
+}
+
+.menu li a:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+
+    
+}
+.menu img{
+    height: 100px;
+    width: 150px;
+}
+.nosotros{
+   background-image: url(../ASSETS/Img/f.elconfidencial.com_original_f91_fdf_357_f91fdf3579767235d65dce37705f7ab1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.contenido{
+    
+    width: 60%;
+    height: 600px;
+    background-color: #eeeeee;
+    margin-left: 20%;
+    margin-top: 200px;
+    
+}
+
+.imgnosotros{
+    margin-left: 3%;
+    height: 500px;
+    width: 400px;
+    margin-top: 5%;
+    
+}   
+
+.escrito{
+    text-align: center;
+    margin-left: 46%;
+    margin-top: -30%;
+    margin-right: 3%;
+}
+
+ul{
+    margin-right: 5000000px;
+}
